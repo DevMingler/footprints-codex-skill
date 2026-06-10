@@ -1,0 +1,2613 @@
+[
+  {
+    "title": "Starting a Community Garden",
+    "create_time": 1736673300,
+    "update_time": 1736673560,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000002": {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000003": {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000003",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1736673300,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000002"
+      },
+      "00000000-0000-4000-8000-000000000005": {
+        "id": "00000000-0000-4000-8000-000000000005",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000005",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1736673360,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I want to turn the unused courtyard at Cedar Court into a small community garden. There are twelve households, the space gets morning sun, and I would like the project to feel shared rather than managed by one person. What should I learn before suggesting it?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000003"
+      },
+      "00000000-0000-4000-8000-000000000007": {
+        "id": "00000000-0000-4000-8000-000000000007",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000007",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1736673420,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Start with permission, interest, sunlight and water access, accessibility, ongoing care, and a modest first season. A short listening session with residents would help distinguish shared priorities from assumptions."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000005"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000005"
+      },
+      "00000000-0000-4000-8000-000000000009": {
+        "id": "00000000-0000-4000-8000-000000000009",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000009",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1736673480,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Could you draft five neutral questions for that listening session? I especially want to ask whether people prefer food, flowers, or simply a pleasant shared space."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000007"
+      },
+      "00000000-0000-4000-8000-000000000011": {
+        "id": "00000000-0000-4000-8000-000000000011",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000011",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1736673540,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Ask what residents would enjoy using the space for, what they would like grown, what barriers might prevent participation, what level of involvement feels realistic, and what concerns should be resolved before starting."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000009"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000009"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000011",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000001",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000001",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Courtyard Sunlight Plan",
+    "create_time": 1739024400,
+    "update_time": 1739024660,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000014": {
+        "id": "00000000-0000-4000-8000-000000000014",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000015": {
+        "id": "00000000-0000-4000-8000-000000000015",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000015",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1739024400,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000014"
+      },
+      "00000000-0000-4000-8000-000000000017": {
+        "id": "00000000-0000-4000-8000-000000000017",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000017",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1739024460,
+          "content": {
+            "content_type": "multimodal_text",
+            "parts": [
+              {
+                "asset_pointer": "file-service://file-sample-garden-plan",
+                "content_type": "image_asset_pointer",
+                "width": 1400,
+                "height": 900,
+                "size_bytes": 84216,
+                "fovea": null,
+                "metadata": {
+                  "dalle": null,
+                  "gizmo": null,
+                  "generation": null,
+                  "container_pixel_height": null,
+                  "container_pixel_width": null,
+                  "emu_omit_glimpse_image": null,
+                  "emu_patches_override": null,
+                  "lpe_keep_patch_ijhw": null,
+                  "lpe_delta_encoding_channel": null,
+                  "is_no_auth_placeholder": null,
+                  "watermarked_asset_pointer": null,
+                  "asset_pointer_link": null,
+                  "sanitized": true
+                }
+              },
+              "Here is my rough sketch of the courtyard. The yellow areas receive about six hours of sun and the blue strip stays shaded. Can you suggest a simple first-season layout?"
+            ]
+          },
+          "metadata": {
+            "attachments": [
+              {
+                "id": "file-sample-garden-plan",
+                "size": 84216,
+                "name": "cedar-court-sunlight-plan.png",
+                "mime_type": "image/png",
+                "width": 1400,
+                "height": 900
+              }
+            ],
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000015"
+      },
+      "00000000-0000-4000-8000-000000000019": {
+        "id": "00000000-0000-4000-8000-000000000019",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000019",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1739024520,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Use the sunniest edge for two vegetable beds, the partly shaded middle for herbs, and the blue strip for seating or shade-tolerant plants. Keep a wide central route and leave one bed raised for easier access."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000017"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000017"
+      },
+      "00000000-0000-4000-8000-000000000021": {
+        "id": "00000000-0000-4000-8000-000000000021",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000021",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1739024580,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I was about to fill every sunny patch, but leaving room to sit may matter more. Please turn that into a short proposal I can share with the residents."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000019"
+      },
+      "00000000-0000-4000-8000-000000000023": {
+        "id": "00000000-0000-4000-8000-000000000023",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000023",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1739024640,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The proposal can frame the courtyard as both a growing space and a place to pause: two shared food beds, a small herb area, an accessible raised bed, and seating along the shaded edge."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000021"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000021"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000023",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000013",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000013",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Fixing a Wi-Fi Dead Zone",
+    "create_time": 1740333900,
+    "update_time": 1740334160,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000026": {
+        "id": "00000000-0000-4000-8000-000000000026",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000027": {
+        "id": "00000000-0000-4000-8000-000000000027",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000027",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1740333900,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000026"
+      },
+      "00000000-0000-4000-8000-000000000029": {
+        "id": "00000000-0000-4000-8000-000000000029",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000029",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1740333960,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "My laptop loses Wi-Fi in the back bedroom, but my phone mostly works there. What can I check before buying another router?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000027"
+      },
+      "00000000-0000-4000-8000-000000000031": {
+        "id": "00000000-0000-4000-8000-000000000031",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000031",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1740334020,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Compare both devices near the router and in the bedroom, restart the router, check whether the laptop uses 2.4 GHz or 5 GHz, update its wireless driver, and test whether walls or appliances affect the signal."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000029"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000029"
+      },
+      "00000000-0000-4000-8000-000000000033": {
+        "id": "00000000-0000-4000-8000-000000000033",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000033",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1740334080,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Switching the laptop to 2.4 GHz fixed it. Is there any downside to leaving it there?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000031"
+      },
+      "00000000-0000-4000-8000-000000000035": {
+        "id": "00000000-0000-4000-8000-000000000035",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000035",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1740334140,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "It may be slower and face more interference, but its longer range is often better through walls. If the connection now meets your needs, leaving it on 2.4 GHz is reasonable."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000033"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000033"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000035",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000025",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000025",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Volunteer Schedule Cleanup",
+    "create_time": 1742121600,
+    "update_time": 1742121920,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000038": {
+        "id": "00000000-0000-4000-8000-000000000038",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000039": {
+        "id": "00000000-0000-4000-8000-000000000039",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000039",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1742121600,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000038"
+      },
+      "00000000-0000-4000-8000-000000000041": {
+        "id": "00000000-0000-4000-8000-000000000041",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000041",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1742121660,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "attachments": [
+              {
+                "id": "file-sample-volunteers",
+                "size": 1642,
+                "name": "garden-volunteer-availability.csv",
+                "mime_type": "text/csv"
+              }
+            ],
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000039"
+      },
+      "00000000-0000-4000-8000-000000000043": {
+        "id": "00000000-0000-4000-8000-000000000043",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000043",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1742121720,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "This CSV contains availability collected from the garden meeting. Please explain how I could turn it into a fair watering rota without assuming the attachment tells you anything beyond its filename and type."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000041"
+      },
+      "00000000-0000-4000-8000-000000000045": {
+        "id": "00000000-0000-4000-8000-000000000045",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000045",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1742121780,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I would first inspect the actual rows if file contents are available. A fair rota would account for stated availability, desired frequency, paired shifts, backup coverage, and a way for residents to swap dates."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000043"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000043"
+      },
+      "00000000-0000-4000-8000-000000000047": {
+        "id": "00000000-0000-4000-8000-000000000047",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000047",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1742121840,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Good. For now, give me column headings for a clean version: resident, available days, preferred frequency, accessibility notes, and whether they can be a backup."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000045"
+      },
+      "00000000-0000-4000-8000-000000000049": {
+        "id": "00000000-0000-4000-8000-000000000049",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000049",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1742121900,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Use `resident_name`, `available_days`, `preferred_shifts_per_month`, `accessibility_notes`, and `available_as_backup`. A separate `notes` column can hold details that do not fit those fields."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000047"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000047"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000049",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000037",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000037",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "A Walking Guide for Alder Bay",
+    "create_time": 1743841800,
+    "update_time": 1743842060,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000052": {
+        "id": "00000000-0000-4000-8000-000000000052",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000053": {
+        "id": "00000000-0000-4000-8000-000000000053",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000053",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1743841800,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000052"
+      },
+      "00000000-0000-4000-8000-000000000055": {
+        "id": "00000000-0000-4000-8000-000000000055",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000055",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1743841860,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I have been thinking about a short self-guided walking route for the fictional neighborhood of Alder Bay. I want it to notice ordinary details, not only official monuments. How could I choose six stops?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000053"
+      },
+      "00000000-0000-4000-8000-000000000057": {
+        "id": "00000000-0000-4000-8000-000000000057",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000057",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1743841920,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Choose stops that reveal different layers of daily life: a gathering place, working infrastructure, an old storefront, a natural feature, a locally made detail, and a site that has changed use."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000055"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000055"
+      },
+      "00000000-0000-4000-8000-000000000059": {
+        "id": "00000000-0000-4000-8000-000000000059",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000059",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1743841980,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "That connects with the garden project more than I expected. Both are partly about helping neighbors notice and share a place. I do not want the guide to romanticize the area or expose private homes."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000057"
+      },
+      "00000000-0000-4000-8000-000000000061": {
+        "id": "00000000-0000-4000-8000-000000000061",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000061",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1743842040,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Use public-facing details, distinguish documented history from observation, avoid identifying residents, and invite walkers to notice change without claiming a single definitive story."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000059"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000059"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000061",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000051",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000051",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Identifying Books from a Shelf",
+    "create_time": 1745766600,
+    "update_time": 1745766920,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000064": {
+        "id": "00000000-0000-4000-8000-000000000064",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000065": {
+        "id": "00000000-0000-4000-8000-000000000065",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000065",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1745766600,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000064"
+      },
+      "00000000-0000-4000-8000-000000000067": {
+        "id": "00000000-0000-4000-8000-000000000067",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000067",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1745766660,
+          "content": {
+            "content_type": "multimodal_text",
+            "parts": [
+              {
+                "asset_pointer": "file-service://file-sample-books-wide",
+                "content_type": "image_asset_pointer",
+                "width": 480,
+                "height": 180,
+                "size_bytes": 51730,
+                "fovea": null,
+                "metadata": {
+                  "dalle": null,
+                  "gizmo": null,
+                  "generation": null,
+                  "container_pixel_height": null,
+                  "container_pixel_width": null,
+                  "emu_omit_glimpse_image": null,
+                  "emu_patches_override": null,
+                  "lpe_keep_patch_ijhw": null,
+                  "lpe_delta_encoding_channel": null,
+                  "is_no_auth_placeholder": null,
+                  "watermarked_asset_pointer": null,
+                  "asset_pointer_link": null,
+                  "sanitized": true
+                }
+              },
+              "Can you identify any of the books in this photograph? Please separate confident identifications from guesses."
+            ]
+          },
+          "metadata": {
+            "attachments": [
+              {
+                "id": "file-sample-books-wide",
+                "size": 51730,
+                "name": "library-shelf-wide.png",
+                "mime_type": "image/png",
+                "width": 480,
+                "height": 180
+              }
+            ],
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000065"
+      },
+      "00000000-0000-4000-8000-000000000069": {
+        "id": "00000000-0000-4000-8000-000000000069",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000069",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1745766720,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The image is too small for confident identification. I can distinguish several spine colors and partial letter shapes, but naming titles would be guesswork."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000067"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000067"
+      },
+      "00000000-0000-4000-8000-000000000071": {
+        "id": "00000000-0000-4000-8000-000000000071",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000071",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1745766780,
+          "content": {
+            "content_type": "multimodal_text",
+            "parts": [
+              {
+                "asset_pointer": "file-service://file-sample-books-left",
+                "content_type": "image_asset_pointer",
+                "width": 360,
+                "height": 220,
+                "size_bytes": 68910,
+                "fovea": null,
+                "metadata": {
+                  "dalle": null,
+                  "gizmo": null,
+                  "generation": null,
+                  "container_pixel_height": null,
+                  "container_pixel_width": null,
+                  "emu_omit_glimpse_image": null,
+                  "emu_patches_override": null,
+                  "lpe_keep_patch_ijhw": null,
+                  "lpe_delta_encoding_channel": null,
+                  "is_no_auth_placeholder": null,
+                  "watermarked_asset_pointer": null,
+                  "asset_pointer_link": null,
+                  "sanitized": true
+                }
+              },
+              "Does this closer image of the left side help?"
+            ]
+          },
+          "metadata": {
+            "attachments": [
+              {
+                "id": "file-sample-books-left",
+                "size": 68910,
+                "name": "library-shelf-left.png",
+                "mime_type": "image/png",
+                "width": 360,
+                "height": 220
+              }
+            ],
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000069"
+      },
+      "00000000-0000-4000-8000-000000000073": {
+        "id": "00000000-0000-4000-8000-000000000073",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000073",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1745766840,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "It improves legibility, but I would still treat only one partial title as tentative. A straight-on photograph with less glare would be more reliable."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000071"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000071"
+      },
+      "00000000-0000-4000-8000-000000000075": {
+        "id": "00000000-0000-4000-8000-000000000075",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000075",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1745766900,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "That restraint is useful. I was testing whether an image question would produce confident inventions."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000073"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000075",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000063",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000063",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Writing the First Walking Route",
+    "create_time": 1747567500,
+    "update_time": 1747567760,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000078": {
+        "id": "00000000-0000-4000-8000-000000000078",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000079": {
+        "id": "00000000-0000-4000-8000-000000000079",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000079",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1747567500,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000078"
+      },
+      "00000000-0000-4000-8000-000000000081": {
+        "id": "00000000-0000-4000-8000-000000000081",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000081",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1747567560,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I chose six stops for the Alder Bay walk: the ferry steps, a rain garden, the old repair shop sign, a public mosaic, the library noticeboard, and the community orchard. Can you help order them into a 45-minute route?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000079"
+      },
+      "00000000-0000-4000-8000-000000000083": {
+        "id": "00000000-0000-4000-8000-000000000083",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000083",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1747567620,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A coherent order is ferry steps, old repair shop sign, public mosaic, library noticeboard, rain garden, then community orchard. It moves from arrival and work toward shared information, water, and food."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000081"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000081"
+      },
+      "00000000-0000-4000-8000-000000000085": {
+        "id": "00000000-0000-4000-8000-000000000085",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000085",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1747567680,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The municipal accessibility map is at https://example.org/alder-bay/accessibility-map. I want the draft to tell readers to verify current path conditions there rather than promise the whole route is accessible."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000083"
+      },
+      "00000000-0000-4000-8000-000000000087": {
+        "id": "00000000-0000-4000-8000-000000000087",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000087",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1747567740,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "State that the route aims to avoid stairs where practical, but surfaces and closures can change. Link readers to the municipal accessibility map for current conditions and provide a shorter alternative."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000085"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000085"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000087",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000077",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000077",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Invitation Poster Revision",
+    "create_time": 1749303900,
+    "update_time": 1749304220,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000090": {
+        "id": "00000000-0000-4000-8000-000000000090",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000091": {
+        "id": "00000000-0000-4000-8000-000000000091",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000091",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1749303900,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000090"
+      },
+      "00000000-0000-4000-8000-000000000093": {
+        "id": "00000000-0000-4000-8000-000000000093",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000093",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1749303960,
+          "content": {
+            "content_type": "multimodal_text",
+            "parts": [
+              {
+                "asset_pointer": "file-service://file-sample-poster",
+                "content_type": "image_asset_pointer",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 206414,
+                "fovea": null,
+                "metadata": {
+                  "dalle": null,
+                  "gizmo": null,
+                  "generation": null,
+                  "container_pixel_height": null,
+                  "container_pixel_width": null,
+                  "emu_omit_glimpse_image": null,
+                  "emu_patches_override": null,
+                  "lpe_keep_patch_ijhw": null,
+                  "lpe_delta_encoding_channel": null,
+                  "is_no_auth_placeholder": null,
+                  "watermarked_asset_pointer": null,
+                  "asset_pointer_link": null,
+                  "sanitized": true
+                }
+              },
+              "This is a draft invitation for the garden planting morning. The date is hard to read and the page feels crowded. What should I simplify?"
+            ]
+          },
+          "metadata": {
+            "attachments": [
+              {
+                "id": "file-sample-poster",
+                "size": 206414,
+                "name": "planting-morning-poster.jpg",
+                "mime_type": "image/jpeg",
+                "width": 1024,
+                "height": 1024
+              }
+            ],
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000091"
+      },
+      "00000000-0000-4000-8000-000000000095": {
+        "id": "00000000-0000-4000-8000-000000000095",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000095",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1749304020,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Make the date and location the strongest text, reduce the body to one sentence, remove decorative elements behind the type, and keep one clear action such as 'Bring gloves if you have them.'"
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000093"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000093"
+      },
+      "00000000-0000-4000-8000-000000000097": {
+        "id": "00000000-0000-4000-8000-000000000097",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000097",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1749304080,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I was trying to make it look festive, but clarity matters more. Could you give me final copy under 45 words?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000095"
+      },
+      "00000000-0000-4000-8000-000000000099": {
+        "id": "00000000-0000-4000-8000-000000000099",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000099",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1749304140,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Cedar Court Planting Morning, Saturday 21 June, 9:00-11:00 in the courtyard. Join us to plant the first shared beds. Everyone is welcome. Bring gloves if you have them; tools and tea will be provided."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000097"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000097"
+      },
+      "00000000-0000-4000-8000-000000000101": {
+        "id": "00000000-0000-4000-8000-000000000101",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000101",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1749304200,
+          "content": {
+            "content_type": "multimodal_text",
+            "parts": [
+              "Here is a simplified square poster concept with stronger date hierarchy.",
+              {
+                "asset_pointer": "sediment://file_sample_generated_poster",
+                "content_type": "image_asset_pointer",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 1842000,
+                "fovea": null,
+                "metadata": {
+                  "dalle": {
+                    "edit_op": null,
+                    "gen_id": "sample-generated-poster",
+                    "parent_gen_id": null,
+                    "prompt": "",
+                    "seed": null,
+                    "serialization_title": "DALL-E generation metadata"
+                  },
+                  "gizmo": null,
+                  "generation": {
+                    "gen_id": "sample-generated-poster",
+                    "gen_size": "image",
+                    "gen_size_v2": null,
+                    "height": 1024,
+                    "width": 1024,
+                    "orientation": null,
+                    "parent_gen_id": null,
+                    "projection": null,
+                    "seed": null,
+                    "serialization_title": "Image Generation metadata",
+                    "transparent_background": false
+                  },
+                  "container_pixel_height": 1024,
+                  "container_pixel_width": 1024,
+                  "emu_omit_glimpse_image": null,
+                  "emu_patches_override": null,
+                  "lpe_keep_patch_ijhw": null,
+                  "lpe_delta_encoding_channel": null,
+                  "is_no_auth_placeholder": null,
+                  "watermarked_asset_pointer": null,
+                  "asset_pointer_link": null,
+                  "sanitized": false
+                }
+              }
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "parent_id": "00000000-0000-4000-8000-000000000099"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000099"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000101",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000089",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000089",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Reading Notes That Stay Useful",
+    "create_time": 1751482800,
+    "update_time": 1751483060,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000104": {
+        "id": "00000000-0000-4000-8000-000000000104",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000105": {
+        "id": "00000000-0000-4000-8000-000000000105",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000105",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1751482800,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000104"
+      },
+      "00000000-0000-4000-8000-000000000107": {
+        "id": "00000000-0000-4000-8000-000000000107",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000107",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1751482860,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "My reading notes become summaries I never revisit. I want a lighter method that records why an idea mattered and what it connects to. Can you suggest a template?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000105"
+      },
+      "00000000-0000-4000-8000-000000000109": {
+        "id": "00000000-0000-4000-8000-000000000109",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000109",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1751482920,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Try four fields: the idea in your words, why it caught your attention, what it connects to, and one question or possible use. Keep each field to a few lines."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000107"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000107"
+      },
+      "00000000-0000-4000-8000-000000000111": {
+        "id": "00000000-0000-4000-8000-000000000111",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000111",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1751482980,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Could I use the same structure for observations from walks and garden meetings, or would that flatten different kinds of material?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000109"
+      },
+      "00000000-0000-4000-8000-000000000113": {
+        "id": "00000000-0000-4000-8000-000000000113",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000113",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1751483040,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The shared structure can help retrieval, but add a source-specific field such as location for walks or decision and owner for meetings. Preserve differences where they affect meaning or action."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000111"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000111"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000113",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000103",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000103",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Charting Garden Participation",
+    "create_time": 1755189300,
+    "update_time": 1755189680,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000116": {
+        "id": "00000000-0000-4000-8000-000000000116",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000117": {
+        "id": "00000000-0000-4000-8000-000000000117",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000117",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1755189300,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000116"
+      },
+      "00000000-0000-4000-8000-000000000119": {
+        "id": "00000000-0000-4000-8000-000000000119",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000119",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1755189360,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I have monthly counts for volunteers, harvested kilograms, and shared meals. What chart would show activity without implying that higher numbers automatically mean a better garden?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000117"
+      },
+      "00000000-0000-4000-8000-000000000121": {
+        "id": "00000000-0000-4000-8000-000000000121",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000121",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1755189420,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Use three small line charts rather than combining unlike measures. Add annotations for context and pair the charts with qualitative notes, since participation and value are not captured fully by counts."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000119"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000119"
+      },
+      "00000000-0000-4000-8000-000000000123": {
+        "id": "00000000-0000-4000-8000-000000000123",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000123",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1755189480,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "That is the same caution I need for the walking guide: measurements can support a story but should not replace what people actually experienced."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000121"
+      },
+      "00000000-0000-4000-8000-000000000125": {
+        "id": "00000000-0000-4000-8000-000000000125",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000125",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1755189540,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Yes. Treat the numbers as one evidence source, label their limits, and keep observations or participant comments distinct rather than converting everything into a score."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000123"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000123"
+      },
+      "00000000-0000-4000-8000-000000000127": {
+        "id": "00000000-0000-4000-8000-000000000127",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000127",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1755189600,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Please show a tiny example table with month, volunteers, harvest_kg, and note."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000125"
+      },
+      "00000000-0000-4000-8000-000000000129": {
+        "id": "00000000-0000-4000-8000-000000000129",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000129",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1755189660,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "| month | volunteers | harvest_kg | note |\n|---|---:|---:|---|\n| June | 8 | 3.2 | First planting day |\n| July | 5 | 7.8 | Water restrictions began |\n| August | 7 | 9.1 | Shared lunch held |"
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000127"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000127"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000129",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000115",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000115",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Recipe Substitution for Lentil Soup",
+    "create_time": 1756921800,
+    "update_time": 1756922000,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000132": {
+        "id": "00000000-0000-4000-8000-000000000132",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000133": {
+        "id": "00000000-0000-4000-8000-000000000133",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000133",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1756921800,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000132"
+      },
+      "00000000-0000-4000-8000-000000000135": {
+        "id": "00000000-0000-4000-8000-000000000135",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000135",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1756921860,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I am making lentil soup and have no celery. I have fennel, carrots, spinach, and dried herbs. What is the simplest substitution?"
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000133"
+      },
+      "00000000-0000-4000-8000-000000000137": {
+        "id": "00000000-0000-4000-8000-000000000137",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000137",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1756921920,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Use a small amount of diced fennel with the carrots. It will add a mild anise note, so use less than the celery quantity and add spinach near the end."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000135"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000135"
+      },
+      "00000000-0000-4000-8000-000000000139": {
+        "id": "00000000-0000-4000-8000-000000000139",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000139",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1756921980,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I used half a fennel bulb and it worked. Thanks."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000137"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000139",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000131",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000131",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Garden Season Review",
+    "create_time": 1760173500,
+    "update_time": 1760173760,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000142": {
+        "id": "00000000-0000-4000-8000-000000000142",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000143": {
+        "id": "00000000-0000-4000-8000-000000000143",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000143",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1760173500,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000142"
+      },
+      "00000000-0000-4000-8000-000000000145": {
+        "id": "00000000-0000-4000-8000-000000000145",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000145",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1760173560,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The first garden season is ending. The raised bed and shaded bench were used constantly, but the shared watering rota faded after six weeks. I want the review to be honest without treating that as failure."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000143"
+      },
+      "00000000-0000-4000-8000-000000000147": {
+        "id": "00000000-0000-4000-8000-000000000147",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000147",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1760173620,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Describe what was used, what became difficult, and what residents changed in response. The rota fading is evidence about coordination needs, not a verdict on the project."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000145"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000145"
+      },
+      "00000000-0000-4000-8000-000000000149": {
+        "id": "00000000-0000-4000-8000-000000000149",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000149",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1760173680,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "We also learned that two small beds were easier to care for than the ambitious layout people first imagined. Next season I would rather deepen participation than expand the footprint."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000147"
+      },
+      "00000000-0000-4000-8000-000000000151": {
+        "id": "00000000-0000-4000-8000-000000000151",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000151",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1760173740,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "That suggests a clear shift from proving the idea through visible growth to sustaining it through manageable commitments and shared ownership."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000149"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000149"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000151",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000141",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000141",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Oral History Archive Idea",
+    "create_time": 1761768900,
+    "update_time": 1761769160,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000154": {
+        "id": "00000000-0000-4000-8000-000000000154",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000155": {
+        "id": "00000000-0000-4000-8000-000000000155",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000155",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1761768900,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000154"
+      },
+      "00000000-0000-4000-8000-000000000157": {
+        "id": "00000000-0000-4000-8000-000000000157",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000157",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1761768960,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "What would a very small oral-history archive for Alder Bay require? I imagine recording five residents talking about places that changed, but I am worried about consent, storage, and turning personal memories into public material."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000155"
+      },
+      "00000000-0000-4000-8000-000000000159": {
+        "id": "00000000-0000-4000-8000-000000000159",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000159",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1761769020,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Begin with a written purpose, informed consent options, boundaries on publication, withdrawal procedures, secure storage, access controls, transcription choices, and a plan for long-term stewardship."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000157"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000157"
+      },
+      "00000000-0000-4000-8000-000000000161": {
+        "id": "00000000-0000-4000-8000-000000000161",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000161",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1761769080,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Could you outline a one-page concept note? Keep it exploratory. I am not ready to invite anyone or collect recordings."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000159"
+      },
+      "00000000-0000-4000-8000-000000000163": {
+        "id": "00000000-0000-4000-8000-000000000163",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000163",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1761769140,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The concept note should cover purpose, proposed participants, interview themes, consent model, stewardship, public access options, risks, a small pilot, and explicit conditions that must be resolved before recording."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000161"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000161"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000163",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000153",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000153",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Revising the Alder Bay Guide",
+    "create_time": 1763296200,
+    "update_time": 1763296460,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000166": {
+        "id": "00000000-0000-4000-8000-000000000166",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000167": {
+        "id": "00000000-0000-4000-8000-000000000167",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000167",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1763296200,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000166"
+      },
+      "00000000-0000-4000-8000-000000000169": {
+        "id": "00000000-0000-4000-8000-000000000169",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000169",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1763296260,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "After testing the Alder Bay route, I want to remove the repair shop stop. The sign is interesting, but the pavement there is narrow and the story depended on an unverified anecdote. The rain garden became the strongest stop because it connected infrastructure with daily care."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000167"
+      },
+      "00000000-0000-4000-8000-000000000171": {
+        "id": "00000000-0000-4000-8000-000000000171",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000171",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1763296320,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Removing the stop strengthens both accessibility and evidence quality. You can expand the rain garden section and explain what is directly observable, what the municipality documents, and what remains uncertain."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000169"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000169"
+      },
+      "00000000-0000-4000-8000-000000000173": {
+        "id": "00000000-0000-4000-8000-000000000173",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000173",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1763296380,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "This project started as a heritage walk, but it now feels more like a guide to shared systems: transport, water, information, food, and art."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000171"
+      },
+      "00000000-0000-4000-8000-000000000175": {
+        "id": "00000000-0000-4000-8000-000000000175",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000175",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1763296440,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "That revised frame is supported by the remaining stops and avoids forcing every place into a heritage narrative."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000173"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000173"
+      },
+      "00000000-0000-4000-8000-000000000177": {
+        "id": "00000000-0000-4000-8000-000000000177",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000177",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1763298000,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Keep the repair shop because colorful anecdotes make a walking guide memorable, even if they cannot be verified."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000169"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000169"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000175",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000165",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000165",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  },
+  {
+    "title": "Year-End Project Reflection",
+    "create_time": 1765736400,
+    "update_time": 1765736660,
+    "mapping": {
+      "00000000-0000-4000-8000-000000000180": {
+        "id": "00000000-0000-4000-8000-000000000180",
+        "message": null,
+        "parent": null
+      },
+      "00000000-0000-4000-8000-000000000181": {
+        "id": "00000000-0000-4000-8000-000000000181",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000181",
+          "author": {
+            "role": "system",
+            "name": null
+          },
+          "create_time": 1765736400,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000180"
+      },
+      "00000000-0000-4000-8000-000000000183": {
+        "id": "00000000-0000-4000-8000-000000000183",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000183",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1765736460,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Looking back, the garden, walking guide, and reading-note experiments all moved from collecting more material toward choosing what could be cared for well. I did not pursue the oral-history archive, partly because its ethical and storage requirements need a clearer home."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000181"
+      },
+      "00000000-0000-4000-8000-000000000185": {
+        "id": "00000000-0000-4000-8000-000000000185",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000185",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1765736520,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The common movement appears to be from expansion toward stewardship: smaller garden beds, fewer and better-supported route stops, lighter notes, and caution about collecting stories without durable care."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000183"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000183"
+      },
+      "00000000-0000-4000-8000-000000000187": {
+        "id": "00000000-0000-4000-8000-000000000187",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000187",
+          "author": {
+            "role": "user",
+            "name": null
+          },
+          "create_time": 1765736580,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I do not want to turn that into a grand lesson about myself. It is enough to record that the projects became more selective and that unfinished ideas may still matter."
+            ]
+          },
+          "metadata": {
+            "can_save": false
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000185"
+      },
+      "00000000-0000-4000-8000-000000000189": {
+        "id": "00000000-0000-4000-8000-000000000189",
+        "message": {
+          "id": "00000000-0000-4000-8000-000000000189",
+          "author": {
+            "role": "assistant",
+            "name": null
+          },
+          "create_time": 1765736640,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "That keeps the reflection proportional to the evidence: a change in project approach during this period, not a fixed personal trait."
+            ]
+          },
+          "metadata": {
+            "can_save": true,
+            "finish_details": {
+              "stop_tokens": [
+                200002
+              ],
+              "type": "stop"
+            },
+            "gizmo_id": null,
+            "is_complete": true,
+            "model_slug": "gpt-4o",
+            "pad": "AAAAAAAA",
+            "parent_id": "00000000-0000-4000-8000-000000000187"
+          }
+        },
+        "parent": "00000000-0000-4000-8000-000000000187"
+      }
+    },
+    "current_node": "00000000-0000-4000-8000-000000000189",
+    "plugin_ids": null,
+    "conversation_id": "00000000-0000-4000-8000-000000000179",
+    "conversation_template_id": null,
+    "id": "00000000-0000-4000-8000-000000000179",
+    "is_archived": false,
+    "is_starred": null,
+    "is_read_only": null,
+    "is_do_not_remember": null,
+    "memory_scope": "global_enabled",
+    "is_study_mode": false,
+    "is_temporary_chat": false,
+    "default_model_slug": "auto",
+    "pinned_time": null,
+    "voice": null
+  }
+]
