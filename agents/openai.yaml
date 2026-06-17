@@ -1,0 +1,5 @@
+interface:
+  display_name: "Footprints"
+  short_description: "Reflect on patterns across ChatGPT history"
+  default_prompt: "Use $footprints to create an evidence-grounded reflective report from my ChatGPT export."
+

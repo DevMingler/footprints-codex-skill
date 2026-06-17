@@ -17,9 +17,11 @@ see conversation by conversation.
 
 ## Input Handling
 
-The input may contain one or more `conversations-*.json` files. Treat numbered
-files as possible chunks of one export. If only part of the export appears to
-be available, state that limitation briefly in the report.
+The input may contain `chat.json`, `conversations.json`, or one or more
+`conversations-*.json` files. Treat numbered files as possible chunks of one
+export. Analyse all supplied conversation files together unless the user says
+otherwise. If only part of the export appears to be available, state that
+limitation briefly in the report.
 
 Each file contains an array of conversation objects. For each conversation:
 
@@ -163,4 +165,3 @@ or tell the user what they should do next.
 The ideal result should make the user think:
 
 > Yes, that feels like the path I walked.
-

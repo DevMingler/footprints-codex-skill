@@ -30,7 +30,8 @@ Rather than analysing individual messages in isolation, Footprints seeks to unde
 
 ## What is This Repository?
 
-This repository contains the open-source Codex Skill implementation of Footprints.
+This repository contains the open-source Codex Skill implementation of
+Footprints. The repository root is the installable skill.
 
 Unlike the Custom GPT implementation, the Codex Skill is intended for:
 
@@ -39,9 +40,42 @@ Unlike the Custom GPT implementation, the Codex Skill is intended for:
 * Researchers
 * Experimenters
 * Developers
-* Curious goblins
+* Curious users
 
 It provides a transparent and extensible environment for improving the Footprints methodology.
+
+---
+
+## Install
+
+Copy or clone this repository to the Codex skills directory as `footprints`:
+
+```bash
+git clone https://github.com/DevMingler/footprints-codex-skill.git \
+  "${CODEX_HOME:-$HOME/.codex}/skills/footprints"
+```
+
+Restart Codex after installation so the skill is discovered.
+
+## Use
+
+Invoke the skill with one or more ChatGPT export JSON files or a directory:
+
+```text
+Use $footprints to create a reflective report from /path/to/chat.json.
+```
+
+The skill applies the Footprints reflective-report prompt to all supplied
+conversation files, reconstructs the active branch of each conversation, and
+writes a report with dated evidence anchors. It processes the export locally.
+
+## Skill Structure
+
+* `SKILL.md` defines the workflow and evidence policy.
+* `prompts/001-generate-reflective-report.md` is the report methodology and
+  runtime source of truth.
+* `docs/` contains research and design context for contributors.
+* `agents/openai.yaml` provides Codex UI metadata.
 
 ---
 
@@ -151,6 +185,10 @@ Areas of interest include:
 * Output templates
 * Documentation
 
+Current implementation issue:
+
+* [Add an optional deterministic ChatGPT export preprocessor](docs/issues/001-add-deterministic-export-preprocessor.md)
+
 When proposing changes:
 
 1. Explain the problem.
@@ -188,7 +226,7 @@ The best report is one where the user says:
 
 ## Status
 
-Current Phase: Research & Validation
+Current Phase: Usable Skill, Ongoing Validation
 
 The Codex Skill is expected to evolve significantly as:
 
