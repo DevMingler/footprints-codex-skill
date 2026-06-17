@@ -1,254 +1,95 @@
 # Footprints Codex Skill
 
-An open-source Codex Skill for exploring the paths people leave behind in their conversations.
+An installable Codex Skill for creating evidence-grounded reflective reports
+from ChatGPT conversation exports.
 
-Footprints transforms ChatGPT exports into reflective reports that highlight projects, recurring themes, persistent questions, creative seasons, and emerging patterns over time.
+Footprints looks across an export for sustained projects, recurring themes,
+persistent questions, shifts in focus, and unfinished ideas. The aim is
+reflection, not analytics, scoring, diagnosis, or profiling.
 
-The goal is not analytics.
+This repository is contributor-facing. The research history and broader
+philosophy belong in
+[footprints-bts](https://github.com/DevMingler/footprints-bts); the public
+upload-and-report experience belongs in
+[footprints-custom-gpt](https://github.com/DevMingler/footprints-custom-gpt).
 
-The goal is reflection.
+## Quick Start
 
----
-
-## What is Footprints?
-
-Footprints is an experiment in helping people better understand their own conversation history.
-
-Given a ChatGPT export (`chat.json`), Footprints attempts to identify:
-
-* Major projects
-* Recurring themes
-* Persistent questions
-* Creative and reflective seasons
-* Emerging interests
-* Turning points and shifts in focus
-* Long-term patterns that may not be obvious when viewed conversation by conversation
-
-Rather than analysing individual messages in isolation, Footprints seeks to understand the larger story that emerges across months or years of conversations.
-
----
-
-## What is This Repository?
-
-This repository contains the open-source Codex Skill implementation of
-Footprints. The repository root is the installable skill.
-
-Unlike the Custom GPT implementation, the Codex Skill is intended for:
-
-* Contributors
-* Prompt engineers
-* Researchers
-* Experimenters
-* Developers
-* Curious users
-
-It provides a transparent and extensible environment for improving the Footprints methodology.
-
----
-
-## Install
-
-Copy or clone this repository to the Codex skills directory as `footprints`:
+Clone this repository into the Codex skills directory as `footprints`:
 
 ```bash
 git clone https://github.com/DevMingler/footprints-codex-skill.git \
   "${CODEX_HOME:-$HOME/.codex}/skills/footprints"
 ```
 
-Restart Codex after installation so the skill is discovered.
+Restart Codex so the skill is discovered.
 
-## Use
-
-Invoke the skill with one or more ChatGPT export JSON files or a directory:
+Invoke it with a ChatGPT export file or directory:
 
 ```text
 Use $footprints to create a reflective report from /path/to/chat.json.
 ```
 
-The skill applies the Footprints reflective-report prompt to all supplied
-conversation files, reconstructs the active branch of each conversation, and
-writes a report with dated evidence anchors. It processes the export locally.
+Accepted inputs:
 
-## Skill Structure
+* `chat.json`
+* `conversations.json`
+* numbered `conversations-*.json` chunks
+* a directory containing those files
 
-* `SKILL.md` defines the workflow and evidence policy.
-* `prompts/001-generate-reflective-report.md` is the report methodology and
-  runtime source of truth.
-* `docs/` contains research and design context for contributors.
+The skill treats supplied conversation files as one export unless the user says
+otherwise. It processes the export locally through Codex.
+
+## Repository Map
+
+* `SKILL.md` is the Codex entrypoint and workflow.
+* `prompts/001-generate-reflective-report.md` is the runtime methodology and
+  report prompt.
+* `docs/chatgpt-export-schema.md` documents the ChatGPT export structure.
+* `docs/report-design-v1.md` captures report design decisions.
+* `docs/issues/` holds scoped implementation notes and proposed improvements.
+* `examples/` contains a small sample export and generated report.
 * `agents/openai.yaml` provides Codex UI metadata.
 
----
+There is no build step or dependency install today; the skill is prompt and
+documentation driven.
 
-## Relationship to Other Repositories
+## Contributor Workflow
 
-### footprints-bts
+1. Start with `prompts/001-generate-reflective-report.md` for behavior changes.
+2. Update `SKILL.md` when invocation, input handling, or workflow changes.
+3. Use `footprints-bts` for deeper methodology, evaluation, and research notes.
+4. Test changes against representative exports before updating examples.
+5. Keep reports grounded in dated evidence anchors from the user's messages.
 
-Source of truth.
+## Report Guardrails
 
-Contains:
+Reports should:
 
-* Prompt evolution
-* Research findings
-* JSON structure analysis
-* Evaluation criteria
-* Sample outputs
-* Design decisions
-* Experimental notes
+* reconstruct the active conversation branch from `current_node`;
+* prioritize user-authored messages over assistant text;
+* use conversation titles as hints, not standalone evidence;
+* identify patterns across the full available date range;
+* disclose incomplete input briefly when relevant;
+* avoid unsupported conclusions, sensitive inferences, scores, rankings,
+  diagnoses, and personality labels.
 
-Any improvements to the Footprints methodology should begin there.
+Do not commit private exports or generated reports unless they are synthetic,
+sanitized, or intentionally included as examples.
 
----
+## Related Repositories
 
-### footprints-custom-gpt
-
-Public-facing implementation.
-
-Designed for users who want a simple upload-and-report experience.
-
-The GPT implementation consumes insights and methodologies developed through the BTS and Codex Skill repositories.
-
----
-
-## Goals
-
-The Codex Skill should:
-
-* Analyse ChatGPT exports
-* Generate meaningful reflection reports
-* Surface long-term patterns
-* Encourage exploration and experimentation
-* Remain transparent and explainable
-* Avoid unsupported conclusions
-
-The ideal outcome is:
-
-> "I had forgotten about that, but yes, that was important."
-
----
-
-## Example Outputs
-
-Current and future outputs may include:
-
-### Reflection Reports
-
-* Major projects
-* Recurring themes
-* Persistent questions
-* Creative seasons
-* Notable shifts
-* Reflection summaries
-
-### Idea Archaeology
-
-Discover:
-
-* Returning ideas
-* Dormant ideas
-* Evolving ideas
-* Unexpected connections
-
-### Timeline Reports
-
-Identify:
-
-* First appearance of projects
-* Long-term interests
-* Changes in focus
-* Significant periods of activity
-
-### Alternative Formats
-
-Potential outputs include:
-
-* Markdown
-* HTML
-* PDF
-* PowerPoint
-* JSON
-* CSV
-
----
-
-## Contributing
-
-Contributions are welcome.
-
-Areas of interest include:
-
-* Prompt improvements
-* Export format support
-* Better project detection
-* Theme extraction
-* Timeline generation
-* Evaluation methodology
-* Output templates
-* Documentation
-
-Current implementation issue:
-
-* [Add an optional deterministic ChatGPT export preprocessor](docs/issues/001-add-deterministic-export-preprocessor.md)
-
-When proposing changes:
-
-1. Explain the problem.
-2. Explain the reasoning.
-3. Provide examples where possible.
-4. Prioritise transparency and usefulness.
-
----
-
-## Design Principles
-
-### Reflection Over Analytics
-
-The objective is insight, not scoring.
-
-### Explainability Over Magic
-
-Outputs should be understandable and defensible.
-
-### Patterns Over Moments
-
-Long-term trends are more valuable than isolated messages.
-
-### Signal Over Volume
-
-Frequency alone does not determine importance.
-
-### Human Recognition
-
-The best report is one where the user says:
-
-> "Yes, that feels like the path I walked."
-
----
+* [footprints-bts](https://github.com/DevMingler/footprints-bts): source of
+  truth for research, prompt evolution, evaluation, philosophy, and design
+  decisions.
+* [footprints-custom-gpt](https://github.com/DevMingler/footprints-custom-gpt):
+  user-facing Custom GPT implementation and assets.
 
 ## Status
 
-Current Phase: Usable Skill, Ongoing Validation
-
-The Codex Skill is expected to evolve significantly as:
-
-* More exports are tested
-* More evaluation cases are introduced
-* More contributors participate
-* Better methodologies emerge
-
-This repository intentionally favours experimentation.
-
----
+Usable and experimental. Expect the prompt, report structure, export handling,
+and evaluation approach to evolve as more exports are tested.
 
 ## License
 
 MIT
-
----
-
-## Final Thought
-
-A conversation is a moment.
-
-A footprint is a trail.
-
-This repository exists to help people follow the trail.
