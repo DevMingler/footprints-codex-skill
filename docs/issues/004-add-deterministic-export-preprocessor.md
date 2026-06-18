@@ -1,5 +1,24 @@
 # Add an optional deterministic ChatGPT export preprocessor
 
+## Skills required
+
+- Python
+- JSON
+- CLI design
+- Local file handling
+- Error handling
+
+## Skill level
+
+Senior
+
+## Ownership
+
+- Owns the first working local preprocessor implementation.
+- Depends on `docs/issues/003-document-the-compact-preprocessor-output.md`.
+- Does not own the full parser fixture corpus or the comprehensive automated
+  extraction test suite.
+
 ## Summary
 
 Create an optional preprocessing utility for large ChatGPT conversation
@@ -20,6 +39,7 @@ easy to understand.
 
 ## Requirements
 
+- Add a local script or module for deterministic ChatGPT export preprocessing.
 - Accept `chat.json`, `conversations.json`, numbered
   `conversations-*.json` files, and directories containing those files.
 - Optionally support ChatGPT export ZIP files.
@@ -36,24 +56,30 @@ easy to understand.
 - Produce a compact, documented output format such as JSONL.
 - Process data locally and avoid network dependencies.
 - Report malformed input and broken or cyclic graph paths clearly.
+- Include enough internal structure that
+  `docs/issues/006-add-automated-tests-for-export-extract.md` can test
+  extraction behavior without invoking unrelated report-generation logic.
 
 ## Acceptance criteria
 
-- Automated tests cover active-path traversal, branches, multimodal content,
-  attachments, malformed input, duplicate conversations, and multiple files.
-- The utility is tested against `examples/chat.json`.
+- The utility can be run locally with a documented command.
+- The utility is manually or smoke-tested against `examples/chat.json`.
 - Output preserves all report-relevant user messages from the active paths.
 - Direct JSON analysis remains the default Footprints workflow.
 - `SKILL.md` documents when preprocessing is useful and how to invoke it only
   after the utility has been implemented and validated.
 - The implementation includes concise usage documentation and has no
   third-party runtime dependency unless clearly justified.
+- Comprehensive fixture coverage and automated extraction tests are left to
+  `docs/issues/005-add-synthetic-parser-fixtures.md` and
+  `docs/issues/006-add-automated-tests-for-export-extract.md`.
 
 ## Out of scope
 
 - Generating the reflective report itself.
+- Creating the synthetic parser fixture suite.
+- Providing comprehensive automated extraction test coverage.
 - Scoring, classifying, or profiling the user.
 - Reading attachment contents that are not present in the export.
 - Replacing `prompts/001-generate-reflective-report.md` as the report
   methodology.
-
