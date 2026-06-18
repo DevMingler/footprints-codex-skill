@@ -41,7 +41,7 @@ easy to understand.
 
 - Automated tests cover active-path traversal, branches, multimodal content,
   attachments, malformed input, duplicate conversations, and multiple files.
-- The utility is tested against `example-chats/chat.json`.
+- The utility is tested against `examples/chat.json`.
 - Output preserves all report-relevant user messages from the active paths.
 - Direct JSON analysis remains the default Footprints workflow.
 - `SKILL.md` documents when preprocessing is useful and how to invoke it only
