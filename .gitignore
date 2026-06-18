@@ -1,0 +1,44 @@
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS / Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / local workspace files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python tooling for future preprocessor/tests
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local/private ChatGPT exports and generated scratch output
+# These rules protect against accidentally committing personal exports.
+# Curated fixtures should live under examples/ or tests/fixtures/.
+/chat.json
+/conversations.json
+/conversations-*.json
+/private/
+/scratch/
+/tmp/
