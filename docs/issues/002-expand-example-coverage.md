@@ -74,4 +74,4 @@ explain the report experience.
 - Building the deterministic preprocessor.
 - Creating a large benchmark corpus.
 - Adding private exports.
-- Guaranteeing exact report wording across future prompt versions.
+- Guaranteeing exact report wording across future prompt numbers.

@@ -58,9 +58,10 @@ documentation driven.
 
 1. Start with `prompts/001-generate-reflective-report.md` for behavior changes.
 2. Update `SKILL.md` when invocation, input handling, or workflow changes.
-3. Use `footprints-bts` for deeper methodology, evaluation, and research notes.
-4. Test changes against representative exports before updating examples.
-5. Keep reports grounded in dated evidence anchors from the user's messages.
+3. Follow `docs/prompt-numbering.md` when changing prompt behavior or examples.
+4. Use `footprints-bts` for deeper methodology, evaluation, and research notes.
+5. Test changes against representative exports before updating examples.
+6. Keep reports grounded in dated evidence anchors from the user's messages.
 
 ## Report Guardrails
 

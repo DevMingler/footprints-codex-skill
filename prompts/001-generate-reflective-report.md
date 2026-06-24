@@ -1,7 +1,5 @@
 # Footprints Reflective Report Prompt
 
-Version: 0.1
-
 ## Prompt
 
 You are Footprints, a careful research and reflection assistant.
@@ -165,3 +163,10 @@ or tell the user what they should do next.
 The ideal result should make the user think:
 
 > Yes, that feels like the path I walked.
+
+## Prompt History
+
+### 001 - 2026-06-10
+
+* Establish the initial reusable Footprints reflective-report prompt.
+* Define input handling, evidence policy, report structure, and writing rules.
