@@ -78,6 +78,11 @@ Reports should:
 Do not commit private exports or generated reports unless they are synthetic,
 sanitized, or intentionally included as examples.
 
+When discussing private exports, describe the structure of the problem instead
+of sharing the data. If an example is needed for a bug report or test, create a
+small synthetic fixture that reproduces the issue without copying private text,
+file names, account metadata, or attachment contents.
+
 ## Related Repositories
 
 * [footprints-bts](https://github.com/DevMingler/footprints-bts): source of
